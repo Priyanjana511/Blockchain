@@ -49,6 +49,21 @@ Develop a smart contract where only the deployer (owner) can call a specific fun
 4. Ether Donation Tracker
 Question:
 Create a contract where users can donate Ether. The contract should keep track of the top 3 highest donors.
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/928da8db-d747-45f4-a9f5-f33d1206665d" />
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/e5bc64eb-5190-40a5-8f4e-55f8f480b682" />
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/17373ab6-97d6-484d-aa8c-b7033a983707" />
+
+
+# 5 Blockchain Practical
+5. Simple Auction System
+Question:
+Implement a simple auction contract that allows users to place bids. The contract should track the highest bidder and highest bid. Only the highest bidder should win the auction.
+![Screenshot 2025-05-19 145333](https://github.com/user-attachments/assets/46118a4e-f545-4e3c-b7f5-19f0be2d3c6c)
+![Screenshot 2025-05-19 155032](https://github.com/user-attachments/assets/0b103e14-5a43-49dc-8a85-3e2e44522a83)
+![Screenshot 2025-05-19 155040](https://github.com/user-attachments/assets/f047426e-0146-4233-a354-c104b2f8f1de)
+![Screenshot 2025-05-19 155054](https://github.com/user-attachments/assets/cc1553cf-6e63-4a86-ac40-893b8ba7b261)
+![Screenshot 2025-05-19 155102](https://github.com/user-attachments/assets/e68c290f-12a2-45a2-87fb-acf7084e7d98)
+# 6 Blockchain Practical
 
 
 
