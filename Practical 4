@@ -2,3 +2,40 @@
 Question:
 Create a contract where users can donate Ether. The contract should keep track of the top 3 highest donors.
 
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract TopDonors {
+    struct Donor {
+        address addr;
+        uint amount;
+    }
+
+    Donor[] public topDonors;
+
+    function donate() public payable {
+        require(msg.value > 0, "Must send some Ether");
+
+        topDonors.push(Donor(msg.sender, msg.value));
+        sortTopDonors();
+        if (topDonors.length > 3) {
+            topDonors.pop();
+        }
+    }
+
+    function sortTopDonors() internal {
+        for (uint i = 0; i < topDonors.length; i++) {
+            for (uint j = i + 1; j < topDonors.length; j++) {
+                if (topDonors[j].amount > topDonors[i].amount) {
+                    Donor memory temp = topDonors[i];
+                    topDonors[i] = topDonors[j];
+                    topDonors[j] = temp;
+                }
+            }
+        }
+    }
+
+    function getTopDonors() public view returns (Donor[] memory) {
+        return topDonors;
+    }
+}
