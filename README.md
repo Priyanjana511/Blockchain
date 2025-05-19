@@ -52,8 +52,8 @@ Create a contract where users can donate Ether. The contract should keep track o
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/928da8db-d747-45f4-a9f5-f33d1206665d" />
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/e5bc64eb-5190-40a5-8f4e-55f8f480b682" />
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/17373ab6-97d6-484d-aa8c-b7033a983707" />
-
-
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/71edc0c3-220e-46b2-bd8d-e350476d635f" />
+<img width="945" alt="image" src="https://github.com/user-attachments/assets/d87bb004-65f4-498c-b42e-f6f8f94693bd" />
 # 5 Blockchain Practical
 5. Simple Auction System
 Question:
@@ -64,10 +64,11 @@ Implement a simple auction contract that allows users to place bids. The contrac
 ![Screenshot 2025-05-19 155054](https://github.com/user-attachments/assets/cc1553cf-6e63-4a86-ac40-893b8ba7b261)
 ![Screenshot 2025-05-19 155102](https://github.com/user-attachments/assets/e68c290f-12a2-45a2-87fb-acf7084e7d98)
 # 6 Blockchain Practical
-
-
-
-
-
-
-
+Ether Splitter
+Question:
+Write a contract that receives Ether and automatically splits it equally between 3 fixed Ethereum addresses.
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/650f6e4d-b8df-47d9-9929-32324048e897" />
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/242a0643-be9e-457f-9671-9bf0011b396b" />
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/2c302822-40c1-419f-bbc6-45b6b3ed401d" />
+![Screenshot 2025-05-19 160001](https://github.com/user-attachments/assets/ffe0ac53-5cfc-4d8f-9674-b7caabbf6e71)
+![Screenshot 2025-05-19 160032](https://github.com/user-attachments/assets/19a2987b-c06b-454f-84c4-23675db84f67)
