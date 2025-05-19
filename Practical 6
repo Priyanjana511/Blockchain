@@ -1,0 +1,3 @@
+ Ether Splitter
+Question:
+Write a contract that receives Ether and automatically splits it equally between 3 fixed Ethereum addresses.
