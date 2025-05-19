@@ -1,0 +1,4 @@
+Simple Auction System
+Question:
+Implement a simple auction contract that allows users to place bids. The contract should track the highest bidder and highest bid. Only the highest bidder should win the auction.
+
