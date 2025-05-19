@@ -1,3 +1,22 @@
  3. Owner-Only Function
 Question:
 Develop a smart contract where only the deployer (owner) can call a specific function. Use Solidity modifiers to restrict access.
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract OwnerOnly {
+    address public owner;
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Not the owner");
+        _;
+    }
+
+    function secretFunction() public onlyOwner view returns (string memory) {
+        return "Access granted only to the owner";
+    }
+}
