@@ -36,6 +36,22 @@ Write a contract to manage a list of student records. Each record should contain
 ![Screenshot 2025-05-19 152652](https://github.com/user-attachments/assets/beb2a42f-e1d0-443e-aa54-e65a8847e16d)
 ![Screenshot 2025-05-19 152720](https://github.com/user-attachments/assets/90385211-8495-4320-a82a-b7ebd2feafc5)
 ![Screenshot 2025-05-19 152730](https://github.com/user-attachments/assets/4eb580ed-a5b7-453e-a483-68dd4ecf2028)
+# 3 Blockchain Practical 3
+ 3. Owner-Only Function
+Question:
+Develop a smart contract where only the deployer (owner) can call a specific function. Use Solidity modifiers to restrict access.
+![Screenshot 2025-05-19 144702](https://github.com/user-attachments/assets/aaecf237-af06-4412-96ed-ac3cea355127)
+![Screenshot 2025-05-19 154258](https://github.com/user-attachments/assets/4bed0461-525e-4787-ae7c-bb28a9dd6eae)
+![Screenshot 2025-05-19 154307](https://github.com/user-attachments/assets/a97b1872-d707-4c93-b9fd-d5c97acb23c0)
+![Screenshot 2025-05-19 154328](https://github.com/user-attachments/assets/a606902d-b76f-42ff-8d04-69c97050406a)
+![Screenshot 2025-05-19 154336](https://github.com/user-attachments/assets/ac36b72e-caba-4b8f-9d1b-b3d5b5742c13)
+# 4 Blockchain Practical
+4. Ether Donation Tracker
+Question:
+Create a contract where users can donate Ether. The contract should keep track of the top 3 highest donors.
+
+
+
 
 
 
