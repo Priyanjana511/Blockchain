@@ -1,0 +1,4 @@
+2. Student Records Management
+Question:
+Write a contract to manage a list of student records. Each record should contain a student's name and roll number. The contract must allow adding new students and retrieving stored student data.
+
