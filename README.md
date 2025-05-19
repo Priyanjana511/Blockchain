@@ -49,11 +49,11 @@ Develop a smart contract where only the deployer (owner) can call a specific fun
 4. Ether Donation Tracker
 Question:
 Create a contract where users can donate Ether. The contract should keep track of the top 3 highest donors.
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/928da8db-d747-45f4-a9f5-f33d1206665d" />
-<img width="955" alt="image" src="https://github.com/user-attachments/assets/e5bc64eb-5190-40a5-8f4e-55f8f480b682" />
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/17373ab6-97d6-484d-aa8c-b7033a983707" />
-<img width="955" alt="image" src="https://github.com/user-attachments/assets/71edc0c3-220e-46b2-bd8d-e350476d635f" />
-<img width="945" alt="image" src="https://github.com/user-attachments/assets/d87bb004-65f4-498c-b42e-f6f8f94693bd" />
+![Screenshot 2025-05-19 155547](https://github.com/user-attachments/assets/164cd5a2-603f-40e5-bd02-c985ec142fd0)
+![Screenshot 2025-05-19 155616](https://github.com/user-attachments/assets/6e43ec87-05b1-4c4a-8265-40ee14dace5e)
+![Screenshot 2025-05-19 155642](https://github.com/user-attachments/assets/b1385909-2478-44a7-964a-5e4cbb866d0c)
+![Screenshot 2025-05-19 155730](https://github.com/user-attachments/assets/e67e4679-c813-495f-b2b9-6dd0e6ea63dd)
+![Screenshot 2025-05-19 155801](https://github.com/user-attachments/assets/36d80e78-325f-41d4-b5bf-9de14d72bc13)
 # 5 Blockchain Practical
 5. Simple Auction System
 Question:
@@ -67,8 +67,9 @@ Implement a simple auction contract that allows users to place bids. The contrac
 Ether Splitter
 Question:
 Write a contract that receives Ether and automatically splits it equally between 3 fixed Ethereum addresses.
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/650f6e4d-b8df-47d9-9929-32324048e897" />
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/242a0643-be9e-457f-9671-9bf0011b396b" />
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/2c302822-40c1-419f-bbc6-45b6b3ed401d" />
-![Screenshot 2025-05-19 160001](https://github.com/user-attachments/assets/ffe0ac53-5cfc-4d8f-9674-b7caabbf6e71)
-![Screenshot 2025-05-19 160032](https://github.com/user-attachments/assets/19a2987b-c06b-454f-84c4-23675db84f67)
+![Screenshot 2025-05-19 155842](https://github.com/user-attachments/assets/8187e1f3-d177-4374-a221-1bff7ccb20cc)
+![Screenshot 2025-05-19 155909](https://github.com/user-attachments/assets/d06964d9-433d-4c8a-b91e-e7e82662b713)
+![Screenshot 2025-05-19 155931](https://github.com/user-attachments/assets/9bf18b69-00cf-44f9-8bb6-16d11ec6b7bd)
+![Screenshot 2025-05-19 160001](https://github.com/user-attachments/assets/267cb959-8955-4e28-b4a5-2a60392a37b5)
+![Screenshot 2025-05-19 160032](https://github.com/user-attachments/assets/5dc0c02a-e137-4900-8588-8766be98f035)
+
