@@ -1,3 +1,27 @@
 1. Voting System
 Question:
 Create a voting system that supports multiple candidates. Ensure that each Ethereum address can only vote once.
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Voting {
+    address public owner;
+    mapping(address => bool) public hasVoted;
+    mapping(string => uint) public votes;
+    string[] public candidates;
+
+    constructor(string[] memory _candidates) {
+        owner = msg.sender;
+        candidates = _candidates;
+    }
+
+    function vote(string memory _candidate) public {
+        require(!hasVoted[msg.sender], "Already voted");
+        votes[_candidate]++;
+        hasVoted[msg.sender] = true;
+    }
+
+    function getVotes(string memory _candidate) public view returns (uint) {
+        return votes[_candidate];
+    }
+}
