@@ -19,4 +19,12 @@
 # 6 App Front-ends & Web3.js
 ![Screenshot 2025-05-18 152433](https://github.com/user-attachments/assets/92724baf-0b06-48b6-b89a-3a7697230472)
 ![Screenshot 2025-05-18 152446](https://github.com/user-attachments/assets/62d7407b-562f-43b5-b7c4-842c1549a8a8)
-
+# 1 Blochchain Practical 1
+1. Voting System
+Question:
+Create a voting system that supports multiple candidates. Ensure that each Ethereum address can only vote once.
+![Screenshot 2025-05-19 143438](https://github.com/user-attachments/assets/f2520d8b-c116-4098-b506-9169abb0fab1)
+![Screenshot 2025-05-19 151432](https://github.com/user-attachments/assets/20be72be-4851-4d20-8e23-4d3a6e722778)
+![Screenshot 2025-05-19 151440](https://github.com/user-attachments/assets/a0d1e38a-16b6-44d2-9757-aeb8dff5f9d8)
+![Screenshot 2025-05-19 151506](https://github.com/user-attachments/assets/169d0b67-8028-46f7-868b-9107b9484592)
+![Screenshot 2025-05-19 151513](https://github.com/user-attachments/assets/e316afc0-a163-4b1b-96f2-37f7ecba988c)
