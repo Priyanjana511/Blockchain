@@ -2,3 +2,27 @@
 Question:
 Write a contract to manage a list of student records. Each record should contain a student's name and roll number. The contract must allow adding new students and retrieving stored student data.
 
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract StudentManager {
+    struct Student {
+        string name;
+        uint rollNumber;
+    }
+
+    Student[] public students;
+
+    function addStudent(string memory _name, uint _roll) public {
+        students.push(Student(_name, _roll));
+    }
+
+    function getStudent(uint index) public view returns (string memory, uint) {
+        Student memory s = students[index];
+        return (s.name, s.rollNumber);
+    }
+
+    function totalStudents() public view returns (uint) {
+        return students.length;
+    }
+}
