@@ -2,3 +2,26 @@ Simple Auction System
 Question:
 Implement a simple auction contract that allows users to place bids. The contract should track the highest bidder and highest bid. Only the highest bidder should win the auction.
 
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Auction {
+    address public highestBidder;
+    uint public highestBid;
+
+    function bid() public payable {
+        require(msg.value > highestBid, "Bid too low");
+
+        // Refund previous highest
+        if (highestBid > 0) {
+            payable(highestBidder).transfer(highestBid);
+        }
+
+        highestBidder = msg.sender;
+        highestBid = msg.value;
+    }
+
+    function getHighestBid() public view returns (address, uint) {
+        return (highestBidder, highestBid);
+    }
+}
