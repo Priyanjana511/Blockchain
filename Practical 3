@@ -1,0 +1,3 @@
+ 3. Owner-Only Function
+Question:
+Develop a smart contract where only the deployer (owner) can call a specific function. Use Solidity modifiers to restrict access.
