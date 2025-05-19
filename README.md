@@ -28,3 +28,15 @@ Create a voting system that supports multiple candidates. Ensure that each Ether
 ![Screenshot 2025-05-19 151440](https://github.com/user-attachments/assets/a0d1e38a-16b6-44d2-9757-aeb8dff5f9d8)
 ![Screenshot 2025-05-19 151506](https://github.com/user-attachments/assets/169d0b67-8028-46f7-868b-9107b9484592)
 ![Screenshot 2025-05-19 151513](https://github.com/user-attachments/assets/e316afc0-a163-4b1b-96f2-37f7ecba988c)
+# 2 Blockchain Practical 2
+2. Student Records Management
+Question:
+Write a contract to manage a list of student records. Each record should contain a student's name and roll number. The contract must allow adding new students and retrieving stored student data.
+![Screenshot 2025-05-19 144155](https://github.com/user-attachments/assets/fac386e6-4cb9-4430-b392-fab58d4d4ff3)
+![Screenshot 2025-05-19 152652](https://github.com/user-attachments/assets/beb2a42f-e1d0-443e-aa54-e65a8847e16d)
+![Screenshot 2025-05-19 152720](https://github.com/user-attachments/assets/90385211-8495-4320-a82a-b7ebd2feafc5)
+![Screenshot 2025-05-19 152730](https://github.com/user-attachments/assets/4eb580ed-a5b7-453e-a483-68dd4ecf2028)
+
+
+
+
